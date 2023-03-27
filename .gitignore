@@ -1,4 +1,4 @@
-website/venv/*
+website/.venv/*
 __pycache__
 
 
