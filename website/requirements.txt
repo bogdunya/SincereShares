@@ -1,0 +1,6 @@
+# Python dependencies
+Django
+
+
+# install everything:
+# $ pip install -r requirements.txt
