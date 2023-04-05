@@ -75,8 +75,18 @@ WSGI_APPLICATION = 'sincereshares.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+
+        'NAME': 'nadejdakna2002/trial',
+
+        'USER': 'nadejdakna2002',
+
+        'PASSWORD': 'v2_42iJ9_46hdiP4v4emLLBXNAw4HgeB',
+
+        'HOST': 'db.bit.io',
+
+        'PORT': '5432',
+
     }
 }
 
