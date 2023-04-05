@@ -1,4 +1,7 @@
+# Python and environment
 website/.venv/*
 __pycache__
 
 
+# Database files
+**/*.*sqlite3
