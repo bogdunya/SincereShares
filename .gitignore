@@ -5,3 +5,6 @@ __pycache__
 
 # Database files
 **/*.*sqlite3
+
+# Jupyter Notebook cahe/backup files
+.ipynb_checkpoints
