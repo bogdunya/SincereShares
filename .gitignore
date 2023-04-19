@@ -8,3 +8,6 @@ __pycache__
 
 # Jupyter Notebook cahe/backup files
 .ipynb_checkpoints
+
+# IDE files
+.idea
