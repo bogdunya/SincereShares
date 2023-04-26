@@ -7,6 +7,7 @@ class Share(models.Model):
     ticker = models.CharField(max_length=40)
     name = models.CharField(max_length=255)
     slug = models.SlugField(unique=True, max_length=255)
+    isin = models.CharField(max_length=12)
 
 
 class Price(models.Model):
