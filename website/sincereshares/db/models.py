@@ -4,7 +4,7 @@ from django.db import models
 from django.db import models
 
 class Share(models.Model):
-    ticker = models.CharField(max_length=40)
+    ticker = models.CharField(max_length=35)
     name = models.CharField(max_length=255)
     slug = models.SlugField(unique=True, max_length=255)
     isin = models.CharField(max_length=12)
