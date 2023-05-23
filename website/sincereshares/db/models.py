@@ -3,13 +3,14 @@ from django.db import models
 # Create your models here.
 from django.db import models
 
+# Акции
 class Share(models.Model):
-    ticker = models.CharField(max_length=35)
+    ticker = models.CharField(max_length=40)
     name = models.CharField(max_length=255)
     slug = models.SlugField(unique=True, max_length=255)
-    isin = models.CharField(max_length=12)
+    isin = models.CharField(unique=True, max_length=12)
 
-
+# Котировки
 class Price(models.Model):
     share = models.ForeignKey(Share, on_delete=models.CASCADE)
     date = models.DateTimeField(auto_now_add=True)
