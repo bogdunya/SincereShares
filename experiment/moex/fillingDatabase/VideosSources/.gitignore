@@ -1,0 +1,7 @@
+.idea
+/.idea/
+/creds/
+/db/
+__pycache__
+/hidden/
+/data/image.jpg
